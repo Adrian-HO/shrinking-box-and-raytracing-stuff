@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\ho000086\\Desktop\\SimpleFPSTemplate\\SimpleFPSTemplate\\Source\\FPSGame\\FPSGame.Build.cs",
+		"C:\\Users\\ho000086\\Desktop\\SimpleFPSTemplate\\SimpleFPSTemplate\\Source\\FPSGame.Target.cs",
+		"C:\\Users\\ho000086\\Desktop\\SimpleFPSTemplate\\SimpleFPSTemplate\\Source\\FPSGameEditor.Target.cs"
+	],
+	"EngineVersion": "4.24.0"
+}

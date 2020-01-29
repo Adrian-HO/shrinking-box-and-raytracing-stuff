@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "FPSGame",
+			"Path": "C:\\Users\\ho000086\\Desktop\\SimpleFPSTemplate\\SimpleFPSTemplate\\Source\\FPSGame.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "FPSGameEditor",
+			"Path": "C:\\Users\\ho000086\\Desktop\\SimpleFPSTemplate\\SimpleFPSTemplate\\Source\\FPSGameEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
