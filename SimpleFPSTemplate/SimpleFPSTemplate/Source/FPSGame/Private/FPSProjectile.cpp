@@ -7,7 +7,7 @@
 #include "Materials/MaterialInstanceDynamic.h"
 #include "Math/UnrealMathUtility.h"
 
-AFPSProjectile::AFPSProjectile() 
+AFPSProjectile::AFPSProjectile()
 {
 	// Use a sphere as a simple collision representation
 	CollisionComp = CreateDefaultSubobject<USphereComponent>(TEXT("SphereComp"));
@@ -47,47 +47,26 @@ void AFPSProjectile::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPr
 		FVector size;
 		if (cube)
 		{
-			 size = cube->GetRelativeScale3D();
+			size = cube->GetRelativeScale3D();
 		}
 		//Scale it by 0.8 or any factor you want ??
-		size.X -= 0.8;
-		size.Y -= 0.8;
-		size.Z -= 0.8;
+		size.X -= 0.3;
+		size.Y -= 0.3;
+		size.Z -= 0.3;
 		if (size.X < 0.5f)
 		{
 			OtherActor->Destroy();
 		}
 		else
 		{
-			float a = FMath::RandRange(0.0f, 200.0f);
 			cube->SetRelativeScale3D(size);
-			UMaterialInstanceDynamic* MAtinst;
-			UMaterialInstanceDynamic* CreateAndSetMaterialInstanceDynamic(MAtinst);
-			if (MAtinst)
-			{
-				MatInst->SetVectorParameterValue(FColor::Green, FMath::RandRange(0, 200));
-				
+
+			UMaterialInstanceDynamic *MatInst = OtherComp->CreateAndSetMaterialInstanceDynamic(0);
+
+			if (MatInst) {
+				MatInst->SetVectorParameterValue("Color", FLinearColor::MakeRandomColor());
 			}
-				//Set the MatInst to a RANDOM color using the function:
-				//void SetVectorParameterValue(FName ParameterName, FLinearColor Value)
-				//The parameter name is Color
-				//Look up documentation on FLinearColor
-			//ENDIF
-			FLinearColor
 		}
-
-		//Now we will create a dynamic material instance that is the mesh surface. we will name it as MAtinst
-		//CREATE a Dynamic Material Instance for the specified element index. +++++++++++++++++++++++++++++
-		//The function to use is:
-		//UMaterialInstanceDynamic* CreateAndSetMaterialInstanceDynamic(int32 ElementIndex)
-		//Look it up in the documentation and how and where to use it	
-		//IF the MatInst is successful
-			//Set the MatInst to a RANDOM color using the function:
-			//void SetVectorParameterValue(FName ParameterName, FLinearColor Value)
-			//The parameter name is Color
-			//Look up documentation on FLinearColor
-		//ENDIF
-
 		Destroy();
 	}
 }

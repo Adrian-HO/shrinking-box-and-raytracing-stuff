@@ -28,7 +28,7 @@
 /wd4838
 /we4668
 /I .
-/I C:\Users\ho000086\Desktop\SimpleFPSTemplate\SimpleFPSTemplate\Source\FPSGame\Private
+/I C:\Users\ho000086\Desktop\test1\SimpleFPSTemplate\SimpleFPSTemplate\Source\FPSGame\Private
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
 /I Runtime
 /I Runtime\Engine\Classes
@@ -525,10 +525,17 @@
 /I Runtime\ClothingSystemRuntimeInterface
 /I Runtime\AudioMixerCore\Public
 /I Runtime\AudioMixerCore
-/I C:\Users\ho000086\Desktop\SimpleFPSTemplate\SimpleFPSTemplate\Intermediate\Build\Win64\UE4Editor\Inc\FPSGame
-/I C:\Users\ho000086\Desktop\SimpleFPSTemplate\SimpleFPSTemplate\Source
-/I C:\Users\ho000086\Desktop\SimpleFPSTemplate\SimpleFPSTemplate\Source\FPSGame\Public
-/I C:\Users\ho000086\Desktop\SimpleFPSTemplate\SimpleFPSTemplate\Source\FPSGame
+/I C:\Users\ho000086\Desktop\test1\SimpleFPSTemplate\SimpleFPSTemplate\Intermediate\Build\Win64\UE4Editor\Inc\FPSGame
+/I C:\Users\ho000086\Desktop\test1\SimpleFPSTemplate\SimpleFPSTemplate\Source
+/I C:\Users\ho000086\Desktop\test1\SimpleFPSTemplate\SimpleFPSTemplate\Source\FPSGame\Public
+/I C:\Users\ho000086\Desktop\test1\SimpleFPSTemplate\SimpleFPSTemplate\Source\FPSGame
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\AugmentedReality
+/I Runtime\AugmentedReality\Public
+/I Runtime\AugmentedReality
+/I ..\Plugins\Runtime\ApexDestruction\Intermediate\Build\Win64\UE4Editor\Inc\ApexDestruction
+/I ..\Plugins\Runtime\ApexDestruction\Source
+/I ..\Plugins\Runtime\ApexDestruction\Source\ApexDestruction\Public
+/I ..\Plugins\Runtime\ApexDestruction\Source\ApexDestruction
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf
@@ -558,12 +565,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"
-/FI"C:\Users\ho000086\Desktop\SimpleFPSTemplate\SimpleFPSTemplate\Intermediate\Build\Win64\FPSGameEditor\Development\Engine\SharedPCH.Engine.h"
-/Yu"C:\Users\ho000086\Desktop\SimpleFPSTemplate\SimpleFPSTemplate\Intermediate\Build\Win64\FPSGameEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"C:\Users\ho000086\Desktop\SimpleFPSTemplate\SimpleFPSTemplate\Intermediate\Build\Win64\FPSGameEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\ho000086\Desktop\SimpleFPSTemplate\SimpleFPSTemplate\Source\FPSGame\Private\FPSCharacter.cpp"
-/FI"C:\Users\ho000086\Desktop\SimpleFPSTemplate\SimpleFPSTemplate\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\Definitions.FPSGame.h"
-/Fo"C:\Users\ho000086\Desktop\SimpleFPSTemplate\SimpleFPSTemplate\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\FPSCharacter.cpp.obj"
+/FI"C:\Users\ho000086\Desktop\test1\SimpleFPSTemplate\SimpleFPSTemplate\Intermediate\Build\Win64\FPSGameEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"C:\Users\ho000086\Desktop\test1\SimpleFPSTemplate\SimpleFPSTemplate\Intermediate\Build\Win64\FPSGameEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"C:\Users\ho000086\Desktop\test1\SimpleFPSTemplate\SimpleFPSTemplate\Intermediate\Build\Win64\FPSGameEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"C:\Users\ho000086\Desktop\test1\SimpleFPSTemplate\SimpleFPSTemplate\Source\FPSGame\Private\FPSCharacter.cpp"
+/FI"C:\Users\ho000086\Desktop\test1\SimpleFPSTemplate\SimpleFPSTemplate\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\Definitions.FPSGame.h"
+/Fo"C:\Users\ho000086\Desktop\test1\SimpleFPSTemplate\SimpleFPSTemplate\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\FPSCharacter.cpp.obj"
 /TP
 /GR-
 /W4

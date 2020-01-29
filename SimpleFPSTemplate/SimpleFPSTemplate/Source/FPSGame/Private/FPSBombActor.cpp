@@ -12,6 +12,7 @@
 #include "TimerManager.h"
 #include "Net/UnrealNetwork.h"
 #include "Components/SkeletalMeshComponent.h"
+#include "GameFramework/ProjectileMovementComponent.h"
 
 // Sets default values
 AFPSBombActor::AFPSBombActor()
@@ -43,7 +44,7 @@ AFPSBombActor::AFPSBombActor()
 
 	BombBox->SetCollisionResponseToChannel(ECC_Pawn, ECR_Ignore);
 
-	ExplodeDelay = 2.0f;
+	ExplodeDelay = 1.0f;
 
 }
 
@@ -64,7 +65,7 @@ void AFPSBombActor::Hold(USkeletalMeshComponent * HoldingComponent)
 	if (HoldingComponent) {
 
 		BombBox->SetSimulatePhysics(false);
-		BombBox->AttachTo(HoldingComponent, "Muzzle", EAttachLocation::SnapToTarget);
+		BombBox->AttachToComponent(HoldingComponent, FAttachmentTransformRules::KeepWorldTransform, "Muzzle");
 		//ATTACH the BombBox to the HoldingComponent at the HoldingComponents Muzzle Socket
 	}
 
@@ -78,9 +79,7 @@ void AFPSBombActor::Throw(FVector direction)
 	BombBox->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
 	BombBox->SetCollisionResponseToChannel(ECC_Pawn, ECR_Block);
 	BombBox->DetachFromComponent(FDetachmentTransformRules::KeepWorldTransform);
-
-	//CALL AddForce(...) to BombBox to throw it, using the direction passed in
-	BombBox->AddForce(direction);
+	BombBox->AddForce(direction * 100000000);
 }
 
 // Called every frame
@@ -97,7 +96,7 @@ void AFPSBombActor::Explode()
 	//BLAST away nearby physics actors by Calling FireImpulse() on the Radial Force Component
 	RadialForceComp->FireImpulse();
 	//CREATE a Timer to Destroy this Actor After 1 second
-	GetWorld()->GetTimerManager().SetTimer(FireTimer, this, &AFPSBombActor::DestroyBomb, 1.f, true);
+	GetWorld()->GetTimerManager().SetTimer(FireTimer, this, &AFPSBombActor::DestroyBomb, 0.5f, true);
 }
 
 void AFPSBombActor::DestroyBomb()

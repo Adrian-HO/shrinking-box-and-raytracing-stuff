@@ -8,14 +8,80 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UPrimitiveComponent;
+class AActor;
+struct FVector;
+struct FHitResult;
 #ifdef FPSGAME_FPSBombActor_generated_h
 #error "FPSBombActor.generated.h already included, missing '#pragma once' in FPSBombActor.h"
 #endif
 #define FPSGAME_FPSBombActor_generated_h
 
 #define SimpleFPSTemplate_Source_FPSGame_Public_FPSBombActor_h_12_SPARSE_DATA
-#define SimpleFPSTemplate_Source_FPSGame_Public_FPSBombActor_h_12_RPC_WRAPPERS
-#define SimpleFPSTemplate_Source_FPSGame_Public_FPSBombActor_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define SimpleFPSTemplate_Source_FPSGame_Public_FPSBombActor_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execDestroyBomb) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->DestroyBomb(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execExplode) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Explode(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execOnHit) \
+	{ \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_HitComp); \
+		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OtherComp); \
+		P_GET_STRUCT(FVector,Z_Param_NormalImpulse); \
+		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_Hit); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnHit(Z_Param_HitComp,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_NormalImpulse,Z_Param_Out_Hit); \
+		P_NATIVE_END; \
+	}
+
+
+#define SimpleFPSTemplate_Source_FPSGame_Public_FPSBombActor_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execDestroyBomb) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->DestroyBomb(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execExplode) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Explode(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execOnHit) \
+	{ \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_HitComp); \
+		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OtherComp); \
+		P_GET_STRUCT(FVector,Z_Param_NormalImpulse); \
+		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_Hit); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnHit(Z_Param_HitComp,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_NormalImpulse,Z_Param_Out_Hit); \
+		P_NATIVE_END; \
+	}
+
+
 #define SimpleFPSTemplate_Source_FPSGame_Public_FPSBombActor_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAFPSBombActor(); \
@@ -58,7 +124,14 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AFPSBombActor); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AFPSBombActor)
 
 
-#define SimpleFPSTemplate_Source_FPSGame_Public_FPSBombActor_h_12_PRIVATE_PROPERTY_OFFSET
+#define SimpleFPSTemplate_Source_FPSGame_Public_FPSBombActor_h_12_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__ExplodeDelay() { return STRUCT_OFFSET(AFPSBombActor, ExplodeDelay); } \
+	FORCEINLINE static uint32 __PPO__ExplosionTemplate() { return STRUCT_OFFSET(AFPSBombActor, ExplosionTemplate); } \
+	FORCEINLINE static uint32 __PPO__BombMesh() { return STRUCT_OFFSET(AFPSBombActor, BombMesh); } \
+	FORCEINLINE static uint32 __PPO__BombBox() { return STRUCT_OFFSET(AFPSBombActor, BombBox); } \
+	FORCEINLINE static uint32 __PPO__RadialForceComp() { return STRUCT_OFFSET(AFPSBombActor, RadialForceComp); }
+
+
 #define SimpleFPSTemplate_Source_FPSGame_Public_FPSBombActor_h_9_PROLOG
 #define SimpleFPSTemplate_Source_FPSGame_Public_FPSBombActor_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

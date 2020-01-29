@@ -374,11 +374,13 @@
     <None Include="..\..\Source\FPSGame\FPSGame.Build.cs" />
     <ClCompile Include="..\..\Source\FPSGame\FPSGame.cpp" />
     <ClInclude Include="..\..\Source\FPSGame\FPSGame.h" />
+    <ClCompile Include="..\..\Source\FPSGame\Private\CollisionSphereComponent.cpp" />
     <ClCompile Include="..\..\Source\FPSGame\Private\FPSBombActor.cpp" />
     <ClCompile Include="..\..\Source\FPSGame\Private\FPSCharacter.cpp" />
     <ClCompile Include="..\..\Source\FPSGame\Private\FPSGameMode.cpp" />
     <ClCompile Include="..\..\Source\FPSGame\Private\FPSHUD.cpp" />
     <ClCompile Include="..\..\Source\FPSGame\Private\FPSProjectile.cpp" />
+    <ClInclude Include="..\..\Source\FPSGame\Public\CollisionSphereComponent.h" />
     <ClInclude Include="..\..\Source\FPSGame\Public\FPSBombActor.h" />
     <ClInclude Include="..\..\Source\FPSGame\Public\FPSCharacter.h" />
     <ClInclude Include="..\..\Source\FPSGame\Public\FPSGameMode.h" />

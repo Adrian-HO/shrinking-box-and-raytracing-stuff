@@ -1,17 +1,21 @@
-C:\Users\ho000086\Desktop\SimpleFPSTemplate\SimpleFPSTemplate\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\Definitions.FPSGame.h
-C:\Users\ho000086\Desktop\SimpleFPSTemplate\SimpleFPSTemplate\Source\FPSGame\Public\FPSCharacter.h
+C:\Users\ho000086\Desktop\test1\SimpleFPSTemplate\SimpleFPSTemplate\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\Definitions.FPSGame.h
+C:\Users\ho000086\Desktop\test1\SimpleFPSTemplate\SimpleFPSTemplate\Source\FPSGame\Public\FPSCharacter.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
-C:\Users\ho000086\Desktop\SimpleFPSTemplate\SimpleFPSTemplate\Intermediate\Build\Win64\UE4Editor\Inc\FPSGame\FPSCharacter.generated.h
-C:\Users\ho000086\Desktop\SimpleFPSTemplate\SimpleFPSTemplate\Source\FPSGame\Public\FPSProjectile.h
-C:\Users\ho000086\Desktop\SimpleFPSTemplate\SimpleFPSTemplate\Intermediate\Build\Win64\UE4Editor\Inc\FPSGame\FPSProjectile.generated.h
+c:\users\ho000086\desktop\test1\simplefpstemplate\simplefpstemplate\source\fpsgame\public\CollisionSphereComponent.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Components/SphereComponent.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SphereComponent.generated.h
+C:\Users\ho000086\Desktop\test1\SimpleFPSTemplate\SimpleFPSTemplate\Intermediate\Build\Win64\UE4Editor\Inc\FPSGame\CollisionSphereComponent.generated.h
+C:\Users\ho000086\Desktop\test1\SimpleFPSTemplate\SimpleFPSTemplate\Intermediate\Build\Win64\UE4Editor\Inc\FPSGame\FPSCharacter.generated.h
+C:\Users\ho000086\Desktop\test1\SimpleFPSTemplate\SimpleFPSTemplate\Source\FPSGame\Public\FPSProjectile.h
+C:\Users\ho000086\Desktop\test1\SimpleFPSTemplate\SimpleFPSTemplate\Intermediate\Build\Win64\UE4Editor\Inc\FPSGame\FPSProjectile.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Components/CapsuleComponent.h
-C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
-C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CapsuleComponent.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
@@ -23,3 +27,6 @@ C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\In
 c:\program files\epic games\ue_4.24\engine\source\runtime\engine\classes\kismet\GameplayStaticsTypes.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\DrawDebugHelpers.h
+C:\Users\ho000086\Desktop\test1\SimpleFPSTemplate\SimpleFPSTemplate\Source\FPSGame\Public\FPSBombActor.h
+C:\Users\ho000086\Desktop\test1\SimpleFPSTemplate\SimpleFPSTemplate\Intermediate\Build\Win64\UE4Editor\Inc\FPSGame\FPSBombActor.generated.h

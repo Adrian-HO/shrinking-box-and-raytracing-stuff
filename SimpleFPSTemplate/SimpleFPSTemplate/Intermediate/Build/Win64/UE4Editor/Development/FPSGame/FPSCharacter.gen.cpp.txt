@@ -1,9 +1,15 @@
-C:\Users\ho000086\Desktop\SimpleFPSTemplate\SimpleFPSTemplate\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\Definitions.FPSGame.h
+C:\Users\ho000086\Desktop\test1\SimpleFPSTemplate\SimpleFPSTemplate\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\Definitions.FPSGame.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-C:\Users\ho000086\Desktop\SimpleFPSTemplate\SimpleFPSTemplate\Source\FPSGame/Public/FPSCharacter.h
+C:\Users\ho000086\Desktop\test1\SimpleFPSTemplate\SimpleFPSTemplate\Source\FPSGame/Public/FPSCharacter.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
-c:\users\ho000086\desktop\simplefpstemplate\simplefpstemplate\intermediate\build\win64\ue4editor\inc\fpsgame\FPSCharacter.generated.h
+c:\users\ho000086\desktop\test1\simplefpstemplate\simplefpstemplate\source\fpsgame\public\CollisionSphereComponent.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Components/SphereComponent.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SphereComponent.generated.h
+c:\users\ho000086\desktop\test1\simplefpstemplate\simplefpstemplate\intermediate\build\win64\ue4editor\inc\fpsgame\CollisionSphereComponent.generated.h
+c:\users\ho000086\desktop\test1\simplefpstemplate\simplefpstemplate\intermediate\build\win64\ue4editor\inc\fpsgame\FPSCharacter.generated.h

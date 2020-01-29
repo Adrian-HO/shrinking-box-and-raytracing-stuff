@@ -1,6 +1,6 @@
-C:\Users\ho000086\Desktop\SimpleFPSTemplate\SimpleFPSTemplate\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\Definitions.FPSGame.h
-C:\Users\ho000086\Desktop\SimpleFPSTemplate\SimpleFPSTemplate\Source\FPSGame\Public\FPSBombActor.h
-C:\Users\ho000086\Desktop\SimpleFPSTemplate\SimpleFPSTemplate\Intermediate\Build\Win64\UE4Editor\Inc\FPSGame\FPSBombActor.generated.h
+C:\Users\ho000086\Desktop\test1\SimpleFPSTemplate\SimpleFPSTemplate\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\Definitions.FPSGame.h
+C:\Users\ho000086\Desktop\test1\SimpleFPSTemplate\SimpleFPSTemplate\Source\FPSGame\Public\FPSBombActor.h
+C:\Users\ho000086\Desktop\test1\SimpleFPSTemplate\SimpleFPSTemplate\Intermediate\Build\Win64\UE4Editor\Inc\FPSGame\FPSBombActor.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Components/BoxComponent.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
@@ -24,3 +24,7 @@ c:\program files\epic games\ue_4.24\engine\source\runtime\engine\classes\kismet\
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Net/UnrealNetwork.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/ProjectileMovementComponent.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/MovementComponent.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MovementComponent.generated.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ProjectileMovementComponent.generated.h

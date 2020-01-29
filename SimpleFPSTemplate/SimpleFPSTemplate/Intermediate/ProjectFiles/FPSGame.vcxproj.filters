@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\FPSGame.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{9EDBF7CB-3877-45EF-A6B7-09C9E9CEED2A}</UniqueIdentifier>
+      <UniqueIdentifier>{3DE5BCD1-ABEC-482B-871C-71E0D1AF0AB9}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\FPSGame.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{956134C6-3D7A-494F-BAEF-CF052C5EBB96}</UniqueIdentifier>
+      <UniqueIdentifier>{82F30BB4-18BD-4304-A20D-5178A3C49C7D}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\FPSGame">
-      <UniqueIdentifier>{108C0142-AB95-4E65-96E6-A48E100209D8}</UniqueIdentifier>
+      <UniqueIdentifier>{90E7E018-0E80-46B9-BE40-9AEC85B02863}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\FPSGame\FPSGame.Build.cs">
       <Filter>Source\FPSGame</Filter>
@@ -39,8 +39,11 @@
       <Filter>Source\FPSGame</Filter>
     </ClInclude>
     <Filter Include="Source\FPSGame\Private">
-      <UniqueIdentifier>{9D58F10F-7581-450B-901F-165F6B5EBF99}</UniqueIdentifier>
+      <UniqueIdentifier>{39FDD727-CD65-4340-A210-23F46734303B}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\FPSGame\Private\FPSBombActor.cpp">
+      <Filter>Source\FPSGame\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\FPSGame\Private\FPSCharacter.cpp">
       <Filter>Source\FPSGame\Private</Filter>
     </ClCompile>
@@ -54,8 +57,11 @@
       <Filter>Source\FPSGame\Private</Filter>
     </ClCompile>
     <Filter Include="Source\FPSGame\Public">
-      <UniqueIdentifier>{8FB6785E-F863-4AED-A701-8BF8E77CC5F8}</UniqueIdentifier>
+      <UniqueIdentifier>{4C67F0D2-B590-4057-9B81-11CEBA854BFD}</UniqueIdentifier>
     </Filter>
+    <ClInclude Include="..\..\Source\FPSGame\Public\FPSBombActor.h">
+      <Filter>Source\FPSGame\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\FPSGame\Public\FPSCharacter.h">
       <Filter>Source\FPSGame\Public</Filter>
     </ClInclude>
@@ -70,12 +76,12 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\Source\FPSGame\Public\FPSBombActor.h">
+    <ClInclude Include="..\..\Source\FPSGame\Public\CollisionSphereComponent.h">
       <Filter>Source\FPSGame\Public</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Source\FPSGame\Private\FPSBombActor.cpp">
+    <ClCompile Include="..\..\Source\FPSGame\Private\CollisionSphereComponent.cpp">
       <Filter>Source\FPSGame\Private</Filter>
     </ClCompile>
   </ItemGroup>
